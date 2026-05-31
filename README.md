@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 
 ---
 
@@ -88,31 +88,6 @@ A pipeline de ML aplica, em sequência:
 2. **Padronização** — `StandardScaler`
 3. **Treinamento e comparação de modelos** — com validação cruzada estratificada
 
----
-
-## Como Executar Localmente
-
-### 1. Instalar dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Iniciar o dashboard
-
-```bash
-streamlit run app.py
-```
-
-### 3. Re-treinar os modelos (opcional)
-
-```bash
-# Pré-processamento da base
-python -m src.tratamento_dados
-
-# Treinamento e geração dos artefatos
-python -m src.train_model
-```
 
 ---
 
