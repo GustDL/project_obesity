@@ -1,4 +1,4 @@
-# 🩺 Sistema Preditivo de Nível de Obesidade
+#  Sistema Preditivo de Nível de Obesidade
 
 > Ferramenta de apoio à triagem clínica baseada em Machine Learning — **não substitui avaliação médica profissional.**
 
@@ -116,16 +116,6 @@ python -m src.train_model
 
 ---
 
-## Deploy no Streamlit Community Cloud
-
-1. Crie um repositório público no GitHub com todos os arquivos do projeto
-2. Acesse [Streamlit Community Cloud](https://streamlit.io/cloud) e faça login
-3. Clique em **"New app"** e aponte para o arquivo `app.py` no repositório
-4. Aguarde o build — o app estará disponível via link público
-5. Cole o link gerado em `docs/relatorio_entrega.txt`
-
----
-
 ## Dependências Principais
 
 | Biblioteca | Uso |
@@ -139,15 +129,3 @@ python -m src.train_model
 
 > Todas as versões estão especificadas em `requirements.txt`.
 
----
-
-## Aviso Médico
-
-> ⚠️ **Este sistema é uma ferramenta de apoio analítico.**
-> Os resultados não substituem avaliação clínica, exames laboratoriais ou diagnóstico médico profissional. Decisões terapêuticas devem sempre ser tomadas por um profissional de saúde habilitado.
-
----
-
-## Licença
-
-Distribuído sob a licença MIT. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.
