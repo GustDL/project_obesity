@@ -1,0 +1,8 @@
+,pred_Insufficient_Weight,pred_Normal_Weight,pred_Overweight_Level_I,pred_Overweight_Level_II,pred_Obesity_Type_I,pred_Obesity_Type_II,pred_Obesity_Type_III
+real_Insufficient_Weight,52,1,0,0,0,0,0
+real_Normal_Weight,1,56,0,0,0,0,0
+real_Overweight_Level_I,0,1,54,0,0,0,0
+real_Overweight_Level_II,0,0,0,58,0,0,0
+real_Obesity_Type_I,0,0,0,0,70,0,0
+real_Obesity_Type_II,0,0,0,0,0,59,1
+real_Obesity_Type_III,0,0,0,0,0,0,65

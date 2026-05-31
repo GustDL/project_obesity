@@ -1,0 +1,80 @@
+RELATÓRIO DE ENTREGA — PROJETO OBESITY
+
+1. Objetivo do projeto
+
+Desenvolver uma pipeline de Machine Learning para prever o nível de obesidade de uma pessoa e entregar uma aplicação preditiva em Streamlit, além de uma visão analítica para apoiar a equipe médica.
+
+2. Base utilizada
+
+Arquivo original: Obesity.csv
+Base final usada na modelagem: obesity_tratada_numerica.csv
+
+3. Tratamento dos dados
+
+Foram realizadas as seguintes etapas:
+
+- verificação inicial com head, shape, info e describe;
+- análise de valores nulos;
+- análise e remoção de duplicados exatos;
+- renomeação de colunas;
+- limpeza de variáveis categóricas;
+- arredondamento das variáveis de escala com ruído decimal;
+- criação da variável BMI;
+- criação da variável BMI_category;
+- transformação das variáveis categóricas em variáveis numéricas;
+- codificação da variável alvo como obesity_level_encoded.
+
+4. Modelagem
+
+Foram testados os seguintes modelos:
+
+- Logistic Regression;
+- KNN;
+- Decision Tree;
+- Random Forest;
+- Extra Trees;
+- Gradient Boosting;
+- SVM RBF;
+- Naive Bayes.
+
+5. Melhor modelo
+
+Melhor modelo escolhido: Random Forest
+
+Métricas principais:
+
+- F1 macro em validação cruzada: 0.9804
+- Accuracy no teste: 0.9904
+- F1 macro no teste: 0.9900
+
+O desempenho ficou acima do requisito mínimo de 75% de assertividade.
+
+6. Aplicação preditiva
+
+A aplicação Streamlit possui formulário para entrada de dados do paciente, calcula o IMC automaticamente e retorna a classe prevista, acompanhada de uma recomendação de apoio à decisão.
+
+Link da aplicação Streamlit:
+[INSERIR LINK APÓS DEPLOY]
+
+7. Dashboard analítico
+
+O painel analítico apresenta:
+
+- distribuição dos níveis de obesidade;
+- IMC por classe de obesidade;
+- histórico familiar por nível de obesidade;
+- consumo de alimentos calóricos por nível de obesidade;
+- atividade física por nível de obesidade;
+- comparação entre modelos de Machine Learning.
+
+Link do dashboard analítico:
+[INSERIR LINK APÓS DEPLOY]
+
+8. Repositório GitHub
+
+Link do repositório:
+[INSERIR LINK DO GITHUB]
+
+9. Observação final
+
+O sistema deve ser utilizado como ferramenta de apoio à triagem e tomada de decisão. Ele não substitui avaliação médica, exames ou diagnóstico profissional.

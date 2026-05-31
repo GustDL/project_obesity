@@ -1,0 +1,13 @@
+{
+    "nome_projeto": "Sistema preditivo de nível de obesidade",
+    "base_original": "Obesity.csv",
+    "base_modelagem": "data/obesity_tratada_numerica.csv",
+    "linhas": 2087,
+    "colunas": 39,
+    "features": 38,
+    "target": "obesity_level_encoded",
+    "melhor_modelo": "Random Forest",
+    "cv_f1_macro": 0.9804461391798076,
+    "teste_accuracy": 0.9904306220095692,
+    "teste_f1_macro": 0.9899762654132224
+}
